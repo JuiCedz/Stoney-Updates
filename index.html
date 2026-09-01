@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stoney – Updates & Download</title>
+  <meta name="description" content="Offizielle Update- und Download-Seite für Stoney.">
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0d1117; color: #f0f6fc; padding: 24px; }
+    main { width: min(720px, 100%); background: #161b22; border: 1px solid #30363d; border-radius: 18px; padding: 28px; box-shadow: 0 18px 60px rgba(0,0,0,.35); }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 7vw, 4rem); }
+    .tagline { color: #8b949e; margin: 0 0 28px; }
+    .card { border: 1px solid #30363d; background: #0d1117; border-radius: 14px; padding: 18px; margin-top: 16px; }
+    .row { display: flex; justify-content: space-between; gap: 18px; padding: 7px 0; }
+    .label { color: #8b949e; }
+    button, .button { display: inline-block; margin-top: 18px; border: 0; border-radius: 10px; padding: 12px 18px; background: #238636; color: white; font-weight: 700; text-decoration: none; cursor: pointer; }
+    .disabled { opacity: .5; pointer-events: none; }
+    footer { margin-top: 24px; color: #8b949e; font-size: .9rem; }
+    code { color: #79c0ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Stoney</h1>
+    <p class="tagline">Offizielle Update- und Download-Seite.</p>
+
+    <section class="card" aria-live="polite">
+      <div class="row"><span class="label">Aktuelle Version</span><strong id="version">Wird geladen…</strong></div>
+      <div class="row"><span class="label">Status</span><strong id="status">Prüfe Update-Datei…</strong></div>
+      <p id="changelog"></p>
+      <a id="download" class="button disabled" href="#">Noch kein Download verfügbar</a>
+    </section>
+
+    <footer>
+      © 2026 Stoney. Alle Rechte vorbehalten. Keine Weiterverbreitung, Veränderung oder erneute Veröffentlichung ohne Erlaubnis.
+    </footer>
+  </main>
+
+  <script>
+    async function loadVersion() {
+      const versionEl = document.getElementById('version');
+      const statusEl = document.getElementById('status');
+      const changelogEl = document.getElementById('changelog');
+      const downloadEl = document.getElementById('download');
+
+      try {
+        const response = await fetch('./version.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('version.json konnte nicht geladen werden');
+        const data = await response.json();
+
+        versionEl.textContent = data.version ?? 'Unbekannt';
+        changelogEl.textContent = data.changelog ?? '';
+
+        if (data.downloadAvailable && data.apkUrl) {
+          statusEl.textContent = 'Download verfügbar';
+          downloadEl.textContent = 'Stoney herunterladen';
+          downloadEl.href = data.apkUrl;
+          downloadEl.classList.remove('disabled');
+        } else {
+          statusEl.textContent = 'Noch keine öffentliche APK';
+        }
+      } catch (error) {
+        versionEl.textContent = 'Fehler';
+        statusEl.textContent = 'Update-Informationen konnten nicht geladen werden';
+        console.error(error);
+      }
+    }
+
+    loadVersion();
+  </script>
+</body>
+</html>
