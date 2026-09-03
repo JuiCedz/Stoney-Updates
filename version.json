@@ -1,8 +1,10 @@
 {
-  "versionCode": 1,
-  "version": "0.1.0",
+  "versionCode": 2,
+  "version": "0.1.1",
   "required": false,
-  "downloadAvailable": false,
-  "apkUrl": "",
-  "changelog": "Update-System vorbereitet. Noch keine öffentliche APK verfügbar."
+  "downloadAvailable": true,
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.1/Stoney-0.1.1.apk",
+  "changelog": "Update-Test 07",
+  "apkSizeBytes": 64578210,
+  "apkSha256": "0E8AB81584692FEC9BD3650BA2F586FCC63B5288D5FE3BF0CFD4ADE6FEB376BC"
 }
