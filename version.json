@@ -1,10 +1,10 @@
 {
-  "versionCode": 4,
-  "version": "0.1.3",
+  "versionCode": 5,
+  "version": "0.1.4",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.3/Stoney-0.1.3.apk",
-  "changelog": "Shroomlands-Verbindung verbessert und Lobby-Fehler behoben.",
-  "apkSizeBytes": 64621474,
-  "apkSha256": "9075819F5C5491CF7D9F63698B06929E8A01A0F51FE4D02B3B39E8F6D80D5B81"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.4/Stoney-0.1.4.apk",
+  "changelog": "Multiplayer Gefixt",
+  "apkSizeBytes": 64632326,
+  "apkSha256": "7A88A0A1212C0479C7DADDE8F198B24DA22B4BCE711E4E53DD2D62160185A919"
 }
