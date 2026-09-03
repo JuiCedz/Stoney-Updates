@@ -1,10 +1,10 @@
 {
-  "versionCode": 2,
-  "version": "0.1.1",
+  "versionCode": 3,
+  "version": "0.1.2",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.1/Stoney-0.1.1.apk",
-  "changelog": "Update-Test 07",
-  "apkSizeBytes": 64578210,
-  "apkSha256": "0E8AB81584692FEC9BD3650BA2F586FCC63B5288D5FE3BF0CFD4ADE6FEB376BC"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.2/Stoney-0.1.2.apk",
+  "changelog": "Shroomlands-Multiplayer überarbeitet: automatischer Beitritt ohne Join-Code, Spieleranzeige und gemeinsamer Map-Reset.",
+  "apkSizeBytes": 64619446,
+  "apkSha256": "183BE3C3FDED7F10D7F202C6DF8F560D4CD7D3340DA6A67ABD96F225EBFFEAA5"
 }
