@@ -1,10 +1,10 @@
 {
-  "versionCode": 5,
-  "version": "0.1.4",
+  "versionCode": 6,
+  "version": "0.1.5",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.4/Stoney-0.1.4.apk",
-  "changelog": "Multiplayer Gefixt",
-  "apkSizeBytes": 64632326,
-  "apkSha256": "7A88A0A1212C0479C7DADDE8F198B24DA22B4BCE711E4E53DD2D62160185A919"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.5/Stoney-0.1.5.apk",
+  "changelog": "Multiplayer-Weltsynchronisierung verbessert: Welt und Karte, Spieleraktionen, Gegner, Ressourcen, Drops, Projektile und Karten-Reset werden jetzt zuverlässiger zwischen Host und Clients synchronisiert.",
+  "apkSizeBytes": 64720630,
+  "apkSha256": "6B62CAAC8C5323F4A44392B8AB4C941DDAEF6391C854C70F055A1B859A883411"
 }
