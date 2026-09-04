@@ -1,10 +1,10 @@
 {
-  "versionCode": 6,
-  "version": "0.1.5",
+  "versionCode": 7,
+  "version": "0.1.6",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.5/Stoney-0.1.5.apk",
-  "changelog": "Multiplayer-Weltsynchronisierung verbessert: Welt und Karte, Spieleraktionen, Gegner, Ressourcen, Drops, Projektile und Karten-Reset werden jetzt zuverlässiger zwischen Host und Clients synchronisiert.",
-  "apkSizeBytes": 64720630,
-  "apkSha256": "6B62CAAC8C5323F4A44392B8AB4C941DDAEF6391C854C70F055A1B859A883411"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.6/Stoney-0.1.6.apk",
+  "changelog": "• Die Hauptszene enthält jetzt ein neues aktives, weißes Sprite. Es ist stark vergrößert (Skalierung 10,466 × 11,5825) und wird mit Sortierreihenfolge 23 dargestellt.\r\n• Die Spielversion wurde von 0.1.4 auf 0.1.5 erhöht; der Android-Versionscode stieg von 5 auf 6.",
+  "apkSizeBytes": 64722010,
+  "apkSha256": "02A5B50CF62A467BAFD288F4A599B1FB9956E33344BCF70DB3A49DB3DDD34DC9"
 }
