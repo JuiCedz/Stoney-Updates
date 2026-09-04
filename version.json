@@ -1,10 +1,10 @@
 {
-  "versionCode": 7,
-  "version": "0.1.6",
+  "versionCode": 8,
+  "version": "0.1.7",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.6/Stoney-0.1.6.apk",
-  "changelog": "• Die Hauptszene enthält jetzt ein neues aktives, weißes Sprite. Es ist stark vergrößert (Skalierung 10,466 × 11,5825) und wird mit Sortierreihenfolge 23 dargestellt.\r\n• Die Spielversion wurde von 0.1.4 auf 0.1.5 erhöht; der Android-Versionscode stieg von 5 auf 6.",
-  "apkSizeBytes": 64722010,
-  "apkSha256": "02A5B50CF62A467BAFD288F4A599B1FB9956E33344BCF70DB3A49DB3DDD34DC9"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.7/Stoney-0.1.7.apk",
+  "changelog": "• Ein zuvor aktives, groß skaliertes Dreiecks-Sprite wurde aus der Hauptszene entfernt und ist dort nicht mehr sichtbar.\r\n• Beim Start des Spiels wird der Unity-Startbildschirm nicht mehr angezeigt.",
+  "apkSizeBytes": 64720630,
+  "apkSha256": "5D196FA0AFE7992CF42B06F6667A7A3A62634D29B3072E2D8AFCFE02BA1BFACE"
 }
