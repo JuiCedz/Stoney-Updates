@@ -1,10 +1,10 @@
 {
-  "versionCode": 8,
-  "version": "0.1.7",
+  "versionCode": 9,
+  "version": "0.1.8",
   "required": false,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.7/Stoney-0.1.7.apk",
-  "changelog": "• Ein zuvor aktives, groß skaliertes Dreiecks-Sprite wurde aus der Hauptszene entfernt und ist dort nicht mehr sichtbar.\r\n• Beim Start des Spiels wird der Unity-Startbildschirm nicht mehr angezeigt.",
-  "apkSizeBytes": 64720630,
-  "apkSha256": "5D196FA0AFE7992CF42B06F6667A7A3A62634D29B3072E2D8AFCFE02BA1BFACE"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.8/Stoney-0.1.8.apk",
+  "changelog": "• Die Weltgenerierung plant Hügel jetzt über geeignete Flächen hinweg, statt ausschließlich zufällige Platzierungen zu versuchen. Zuerst wird die vorgesehene Hügelzahl angestrebt und nur bei fehlendem Platz schrittweise reduziert. Dadurch erhalten nachweislich betroffene Welten, in\r\n• Falls die bisherigen Standardhügel mit mindestens 7 × 5 Feldern nicht passen, stehen jetzt zusätzliche kompakte Größen zur Verfügung: 6 × 5, 6 × 4, 5 × 4, 4 × 4, 5 × 3, 4 × 3, 3 × 4 und 3 × 3 Felder.\r\n• Kompakte Hügel dürfen mit einem Sicherheitsabstand von 1 Feld näher an Landränder und Wasser rücken. Als letzte Ausweichstufe dürfen sie direkt an reservierte Wege angrenzen, belegen aber weiterhin keine Wegfelder.\r\n• Wasserfälle berücksichtigen jetzt die Flächen und Sicherheitsabstände aller bereits geplanten Hügel. Sie werden anders platziert oder entfallen, wenn sie sonst einen späteren Hügel verdrängen würden.\r\n• Die sichtbare Spielversion wurde von 0.1.6 auf 0.1.7 erhöht; der Android-Versionscode steigt von 7 auf 8.",
+  "apkSizeBytes": 64727942,
+  "apkSha256": "7A8D754ED53067836D90120F3BAC240C72010E33284124D99C7D1D7D4837E1C6"
 }
