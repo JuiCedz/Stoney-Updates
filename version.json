@@ -1,10 +1,10 @@
 {
-  "versionCode": 12,
-  "version": "0.1.11",
-  "required": false,
+  "versionCode": 13,
+  "version": "0.1.12",
+  "required": true,
   "downloadAvailable": true,
-  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.11/Stoney-0.1.11.apk",
-  "changelog": "• Schnecken übernehmen bei der Weltsynchronisierung nun die richtige Variante samt Animationsbildern vom Host. Zuvor konnten bereits lokal vorhandene Schnecken ihr abweichendes Aussehen behalten.\r\n• Ein beim Multiplayer-Beitritt abgebrochener oder durch einen gemeinsamen Map-Reset beendeter Spitzhackenabbau wird nun korrekt abgeschlossen, auch wenn die Startanimation bereits vorbei ist. Dadurch bleibt der Spieler nicht mehr in der Werkzeugaktion hängen.",
-  "apkSizeBytes": 64875042,
-  "apkSha256": "B728CA845E70BA280715CF9F0AC40D54CDAA7FE5FB5F7BA3A5E03F258A277B11"
+  "apkUrl": "https://github.com/JuiCedz/Stoney-Updates/releases/download/v0.1.12/Stoney-0.1.12.apk",
+  "changelog": "• Aufsammelmeldungen erscheinen jetzt über der übrigen Benutzeroberfläche, einschließlich des Namensdialogs. Darunterliegende Bedienelemente bleiben durch die Meldungen hindurch bedienbar.\r\n• Aufsammelmeldungen erscheinen jetzt einzeln nacheinander statt gleichzeitig übereinandergestapelt. Jede sichtbare Meldung behält ihren Text und ihre vollständige Anzeigedauer, auch wenn weitere Gegenstände hinzukommen.\r\n• Weitere Aufnahmen desselben Gegenstands werden in einer bereits wartenden Meldung mit addierter Menge zusammengefasst. Unterschiedliche wartende Meldungen erscheinen in der Reihenfolge ihres ersten Eingangs.\r\n• Bis zu 16 Aufsammelmeldungen können warten. Zusätzliche Aufnahmen, die keiner bereits wartenden Meldung zugeordnet werden können, werden bei Überlauf anschließend als „+N weitere Items“ mit ihrer Gesamtmenge angezeigt.\r\n• Aufsammelmeldungen werden innerhalb des sicheren Bildschirmbereichs gehalten, auch am Bildschirmrand und bei Displayaussparungen. Ihre Größe berücksichtigt die tatsächliche Textbreite; bei Platzmangel werden Meldung und Schrift verkleinert.\r\n• Aufsammelmeldungen steigen auch bei pausiertem Spiel weiter auf, blenden aus und verschwinden nach ihrer Anzeigedauer, statt einzufrieren.\r\n• Gegenstandsnamen in Aufsammelmeldungen werden jetzt als wörtlicher Text dargestellt; enthaltene Formatierungsmarkierungen verändern die Darstellung nicht mehr.\r\n• Aufsammelmeldungen werden nach erneutem Laden einer Szene automatisch wieder für das vorhandene Spielerinventar eingerichtet.",
+  "apkSizeBytes": 64871130,
+  "apkSha256": "6A42C3B18A44CFC66A3C01C72B50EF92B9F595AE3B3161152D8A82D3CFEA5D50"
 }
